@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- background Bubbles -->
+    <ul class="bubble">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <h2 id="header">ROCK PAPER SCISSORS <span>GAME</span></h2>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="assets/rock.png" alt="rock image">
+        </div>
+        <div class="choice" id="paper">
+            <img src="assets/paper.png" alt="paper image">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="assets/scissors.png" alt="scissors image">
+        </div>
+    </div>
+    <div class="score-container">
+        <div class="user-score">
+            <h2 class="score-title"><span id="user-num">0</span> You</h2>
+        </div>
+        <div class="comps-score">
+            <h2 class="score-title"><span id="comp-num">0</span>  Computer</h2>
+        </div>
+    </div>
+    <div class="msg-container">
+        <h3 id="msg">Play your move!</h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
